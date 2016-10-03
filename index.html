@@ -23,6 +23,15 @@
             var url = this;
             return '<img src="' + url + '" style="width: ' + width + '; padding-right: '+ padl +'" />';
         };
+
+        remark.macros.style = function(styleText) {
+            var url = this;
+            return '<img src="' + url + '" style="'+styleText+'" />';
+        };
+
+        remark.macros.title_bar = function(text) {
+            return '<span class="title">> '+text+'</span>\n<hr class="title_bar"/></br>'
+        }
         var slideshow = remark.create({
             //ratio: '16:9',
             sourceUrl: 'slides.md',

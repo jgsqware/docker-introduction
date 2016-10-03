@@ -54,7 +54,7 @@
    }
    
    .big {
-       font-size: 140%;
+       font-size: 200%;
    }
    
    .quote-big {
@@ -124,4 +124,26 @@
 
    .techno-logo {
        width: 20px
+   }
+
+   .title {
+       font-size: 45px;
+       font-family: 'Yanone Kaffeesatz';
+       left: 50px;
+       top: 10px;
+       display: block;
+       font-size: bold;
+       position: absolute;
+   }
+   .title_bar {
+       border: 3px solid #265C83;
+       position: absolute;
+       width: 200%;
+       margin-left: -200px;
+       margin-top: 30px;
+   }
+
+   .full_image {
+       margin-left: -100px;
+       margin-top: 10px;
    }
